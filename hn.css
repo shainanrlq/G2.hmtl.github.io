@@ -1,0 +1,70 @@
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer, main, aside {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+header, footer {
+  background-color: #f0f0f0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #555;
+}
+
+/* Estilos específicos para a página inicial */
+main {
+  width: 70%;
+  float: left;
+}
+
+aside {
+  width: 25%;
+  float: right;
+}
+
+/* Estilos para o formulário de cadastro */
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+form label, form input, form button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
